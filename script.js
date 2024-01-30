@@ -46,9 +46,9 @@ function fut_start() {
     boj_state = 0;
     fut.style.border = "2px solid white";
     fut.classList.remove("grayscale");
-    adt.style.border = "unset";
+    adt.style.border = "2px solid transparent";
     adt.classList.add("grayscale");
-    boj.style.border = "unset";
+    boj.style.border = "2px solid transparent";
     boj.classList.add("grayscale");
 }
 function boj_start() {
@@ -57,9 +57,9 @@ function boj_start() {
     boj_state = 1;
     boj.style.border = "2px solid white";
     boj.classList.remove("grayscale");
-    adt.style.border = "unset";
+    adt.style.border = "2px solid transparent";
     adt.classList.add("grayscale");
-    fut.style.border = "unset";
+    fut.style.border = "2px solid transparent";
     fut.classList.add("grayscale");
 }
 // 
