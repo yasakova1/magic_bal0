@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>🎱---</title>
+</head>
+
+<body>
+    <div id="wrapper0">
+        <div class="row">
+            <section class="sect1">
+                <p>🔮 Выбери кто тебе ответит >></p>
+                <div class="posters">
+                    <div id="opt_adt" class="grayscale"> <img src="img\adventure_poster.jpg" alt="AdventureTime"
+                            height="200"></div>
+                    <div id="opt_fut" class="grayscale"> <img src="img\fururama_poster.jpg" alt="Futurama" height="200">
+                    </div>
+                    <div id="opt_boj" class="grayscale"> <img src="img\bojack_poster.jpg" alt="BoJack Horseman"
+                            height="200"></div>
+                </div>
+            </section>
+            <section class="sect2">
+                <!--  -->
+                <div class="form">
+                        <label for="question">Введите ваш вопрос: </label>
+                        <input type="text" id="question" name="question" placeholder="Что будет завтра?">
+                        <input type="submit" value="Оk" onclick="in_question()" class="but">
+                    <p id="add_question"></p>
+                </div>
+                <!--  -->
+                <div class="magic_ball">
+                    <div class="ball">
+                        <div class="modify_part">
+                            <span class="answer">
+                                <p id="answer_p">💩</p>
+                                <img id="answer_img" src="">
+                            </span>
+                            <span class="eight">
+                                <p>8</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div id="frame"><iframe style="border: none" width="400" height="400"
+                    src="https://rive.app/community/4994-10102-hippo/embed" allowfullscreen></iframe></div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
